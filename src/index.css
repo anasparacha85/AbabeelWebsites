@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+.bg-orange{
+background-color: rgb(225, 111, 69);
+}
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* move half since we duplicated logos */
+}
+
+.animate-slide {
+  display: flex;
+  animation: slide 20s linear infinite;
+}
+body {
+  overflow-x: hidden;
+}
+.bg-gray{
+  background-color: #2B2D42;
+}
+.bg-light-gray{
+  background-color: #393b4a;
+}
+.border-radius{
+  border-radius: 8% 92% 0% 100% / 0% 0% 100% 100% ;
+}
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Swiper pagination dots neeche karna */
+.swiper-pagination {
+  bottom: 0 !important; /* neeche adjust */
+}
+
+/* Active dot orange */
+.swiper-pagination-bullet {
+  background: #f97316 !important; /* orange-500 */
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f97316 !important;
+  opacity: 1;
+}
+
