@@ -1,6 +1,7 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react';
 import 'aos/dist/aos.css'
+import Consultation from '/public/consutationToRecruitment.jpg'
 
 const HRprocessSection = () => {
   // useEffect(() => {
@@ -34,7 +35,7 @@ const HRprocessSection = () => {
             >
               <div className="rounded-3xl overflow-hidden shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=400&fit=crop"
+                  src={Consultation}
                   alt="Recruitment Process"
                   className="w-full h-full object-cover"
                 />

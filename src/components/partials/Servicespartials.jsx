@@ -4,7 +4,7 @@ import { Check, Play } from "lucide-react"
 import { useEffect } from "react"
 import 'aos/dist/aos.css'
 import CountUp from "../../animations/CountUp"
-import Resource from '/public/resources.jpg'
+import Resource from '/public/recruitmentexcellence.jpg'
 
 const ServicesPartials = () => {
   // useEffect(() => {

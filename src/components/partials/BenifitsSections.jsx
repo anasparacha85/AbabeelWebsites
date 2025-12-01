@@ -1,6 +1,6 @@
 import Aos from "aos"
 import { useEffect } from "react"
-
+import BenifitsImage from '/public/discoverbenifits.jpg'
 const BenefitsSection = () => {
   // useEffect(() => {
   //   Aos.init()
@@ -102,7 +102,7 @@ const BenefitsSection = () => {
           {/* Right Content - Image */}
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden">
-             <img src="https://images.pexels.com/photos/6214832/pexels-photo-6214832.jpeg?_gl=1*1x4xwlx*_ga*MTIwNDU4MTc4OS4xNzI1MzYzMjg1*_ga_8JE65Q40S6*czE3NTc3NzMzMTEkbzQ3JGcxJHQxNzU3NzczNzc4JGo1OSRsMCRoMA.." alt="Professional working on laptop" className="w-full h-full object-cover" />
+             <img src={BenifitsImage} alt="Professional working on laptop" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

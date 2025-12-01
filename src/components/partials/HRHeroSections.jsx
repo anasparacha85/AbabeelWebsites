@@ -1,7 +1,7 @@
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
-import BlogsImage from "/public/Blogs.jpg"
+import PartnerImage from "/public/Partner.jpg"
 const HRHeroSection = () => {
   // useEffect(() => {
   //   Aos.init();
@@ -58,10 +58,10 @@ const HRHeroSection = () => {
             className="relative"
           >
             <div className="bg-gradient-to-br from-orange-500 to-orange-600 w-16 h-16 rounded-lg absolute -top-6 -right-6 z-10"></div>
-            <div className="bg-white rounded-2xl shadow-xl p-8 relative">
-              <div className="w-full h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl flex items-center justify-center">
+            <div className="rounded-2xl  p-2  shadow-xl relative">
+              <div className="w-full h-96  rounded-xl flex items-center justify-center">
                 <img
-                  src={BlogsImage}
+                  src={PartnerImage}
                   alt="Ababeel Recruitment Dubai"
                   className="w-full h-full rounded-xl object-cover"
                 />

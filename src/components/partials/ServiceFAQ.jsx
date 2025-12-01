@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Learn from '/public/learn-by-doing.webp'
+import Learn from '/public/executive.jpg'
 import 'aos/dist/aos.css'
 import Aos from 'aos';
 

@@ -2,16 +2,21 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import Ramboll from '/public/Ramboll.webp'
+import Parsons from '/public/Parsons.webp'
+import ASGC from '/public/ASGC.webp'
+import ASG from '/public/ASG.webp'
+import DAMAC from '/public/dell-logo.webp'
 
 const ServicesOrganizationsSections = () => {
   const companyImages = [
-    "https://ababeel.ae/wp-content/uploads/2022/01/Screenshot_1.png",
-    "https://ababeel.ae/wp-content/uploads/2019/06/Ramboll.png",
-    "https://ababeel.ae/wp-content/uploads/2019/06/Parsons.png",
-    "https://ababeel.ae/wp-content/uploads/2019/06/ASGC.png",
-    "https://ababeel.ae/wp-content/uploads/2019/06/ASG.png",
-    "https://ababeel.ae/wp-content/uploads/2019/06/ASGC.png",
-    "https://ababeel.ae/wp-content/uploads/2019/06/ASG.png",
+    ASGC,
+    ASG,
+    Ramboll,
+    Parsons,
+     ASGC,
+    Ramboll,
+    Parsons,
   ];
 
   return (

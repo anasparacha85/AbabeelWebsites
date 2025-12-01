@@ -39,8 +39,7 @@ const ServicesHeroSection=()=> {
         
 
         <p className="text-sm md:text-lg text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-          pulvinar dapibus leo.
+          Discover how our tailored HR and recruitment solutions can streamline your workforce management, reduce costs, and help you hire the right talent effortlessly. Get your free HR assessment today and take the first step towards transforming your business with Ababeel FZE LLC.
         </p>
 
         <button

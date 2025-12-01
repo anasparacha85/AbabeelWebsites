@@ -1,9 +1,12 @@
 import Aos from 'aos';
 import React, { useEffect, useState } from 'react';
 import "aos/dist/aos.css"
-import Perfromace from '/public/perfromacen.jpg'
-import Skill from '/public/skilldevelopment.jpg'
+import Skill from '/public/skilldevelogment.jpg'
 import Employeetraining from '/public/employeetraining.jpg'
+import consulting from '/public/consulting.jpg'
+import accurate from '/public/accuratedata.jpg'
+import Recruitment from '/public/recruitment (2).jpg'
+import Performance from '/public/PerformanceImprovedment.jpg'
 // Services Section Component with Tabs
 const ServicesSection = () => {
   // useEffect(()=>{
@@ -15,19 +18,19 @@ const ServicesSection = () => {
     {
       title: 'Best Consulting',
       description: 'We have best consulting & experienced adviser.',
-      image: 'https://www.searchsolutiongroup.com/wp-content/uploads/2025/04/Executive-Search-Thumbnail-min.jpg',
+      image: consulting,
       buttonText: 'Begin Hiring'
     },
     {
       title: 'Accurate Data',
       description: 'We build accurate data all of our bank reporting',
-      image: 'https://www.searchsolutiongroup.com/wp-content/uploads/2024/04/it-executive-recruitment-employee-working-1.jpg',
+      image: accurate,
       buttonText: 'Begin Hiring'
     },
     {
       title: 'Recruitment Process Outsourcing',
       description: 'Outsource full-cycle, project-based, or hybrid hiring to our expert recruiters for fast, flexible talent solutions.',
-      image: 'https://www.searchsolutiongroup.com/wp-content/uploads/2025/06/NEW-Recruiter-On-Demand-Thumbnail-Size.webp',
+      image: Recruitment,
       buttonText: 'Begin Hiring'
     }
   ];
@@ -48,7 +51,7 @@ const ServicesSection = () => {
     {
       title: 'Performance Improvement',
       description: 'Our training programs at Ababeel Recruitment Agency focus on enhancing the performance of your employees',
-      image:Perfromace,
+      image:Performance,
       buttonText: 'Get Started'
     }
   ];

@@ -5,11 +5,11 @@ import ImageCard from '../common/ImageCards';
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import HRService from '/public/HRService.jpg'
-import Recruitment from '/public/recruitment.jpg'
+import Recruitment from '/public/recruitmentsolution.jpg'
 import Staffing from '/public/staffing.jpg'
-import Placement from '/public/placement.jpg'
-import Executive from '/public/executive.jpg'
-import Industry from '/public/indusrrtspec.jpg'
+import Placement from '/public/permanentplacing.jpg'
+import Executive from '/public/ExecutiveSearch.jpg'
+import Industry from '/public/IndustrySpecialization.jpg'
 import Payroll from '/public/payroll.jpg'
 
 const HRServices = () => {
@@ -32,22 +32,22 @@ const HRServices = () => {
     },
     {
       title: "Permanent Placement",
-      description: "Focused on finding the best long term fit,we identify and palce candidates who allign with your company culture and objectives.",
+      description: "Focused on finding the best long term fit,we identify and place candidates who allign with your company culture and objectives.",
       image: images[2]
     },
     {
       title: "Executive Search",
-      description: "Our executive search servies help you find top level professionals for critical roles in your organization,ensuring ledership quality and vision.",
+      description: "Our executive search services help you find top level professionals for critical roles in your organization,ensuring ledership quality and vision.",
       image: images[3]
     },
     {
       title: "Industry Specialization",
-      description: "We serve a variity of sectors,including: -Information Technology -Healthcare -Engineering -Hospitality -Sales &Marketing -Finance &Marketing.",
+      description: "We serve a variety of sectors,including: -Information Technology -Healthcare -Engineering -Hospitality -Sales &Marketing -Finance &Marketing.",
       image: images[4]
     },
     {
       title: "Payroll Management",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Our payroll management services ensure accurate and timely salary disbursements,compliance with local regulations,and efficient handling of all payroll related tasks.",
       image: images[5]
     }
   ];

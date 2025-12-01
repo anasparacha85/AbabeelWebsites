@@ -17,7 +17,7 @@ const TalentCard = ({ImageUrl,title,description}) => {
         <img
           src={ImageUrl}
           alt="Talent Acquisition"
-          className="w-full h-96 rounded-[30px] object-cover"
+          className=" h-96 rounded-[30px] "
         />
         </div>
 
