@@ -13,11 +13,11 @@ const TalentCard = ({ImageUrl,title,description}) => {
       {/* Card container with shadow + rounded corners */}
       <div  className="  shadow-lg overflow-hidden ">
         {/* Image */}
-        <div className="w-full  rounded-[30px] border-8 border-white rounder-xl">
+        <div className=" rounded-[30px] h-96 w-full border-8 border-white rounder-xl">
         <img
           src={ImageUrl}
           alt="Talent Acquisition"
-          className=" h-96 rounded-[30px] "
+          className="  h-full w-full object-fit rounded-[30px]"
         />
         </div>
 

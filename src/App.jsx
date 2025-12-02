@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/Home'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import Services from './pages/Services'
 import NotFound from './pages/NotFound'
 
@@ -30,9 +30,10 @@ function App() {
   return (
     <>
     <ScrollToTop/>
-   <Routes>
-    <Route path="" element={<Home/>}/>
-    <Route path="/services" element={<Services/>}/>
+  <Routes>
+   <Route path="/" element={<Navigate to="/home" replace />} />
+   <Route path="/home" element={<Home/>}/>
+   <Route path="/services" element={<Services/>}/>
       <Route path="/testimonials" element={<Testimonials/>}/>
       <Route path='/blogs' element={<Blogs/>}/>
       <Route path='/contact' element={<Contact/>}/>

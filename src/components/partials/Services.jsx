@@ -104,7 +104,7 @@ const ServicesSection = () => {
              transition-all duration-800 group delay-100"
 >
 
-              <img src={service.image} alt='no image' className="h-48 w-full bg-gradient-to-br from-gray-100 to-gray-200 mb-6 flex items-center justify-center text-6xl  transition-transform">
+              <img src={service.image} alt='no image' className="    bg-gradient-to-br from-gray-100 to-gray-200 mb-6 flex items-center justify-center text-6xl  transition-transform">
               
               </img>
               <div className='w-[100%] flex justify-center flex-col px-3 '>

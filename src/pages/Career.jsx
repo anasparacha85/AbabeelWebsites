@@ -8,7 +8,6 @@ import ASC from '/public/ASG.webp'
 import Omber from '/public/Screenshot_1 (1).webp'
 const Career = () => {
     const [transparent, settransparent] = useState(true)
-    "https://ababeel.ae/wp-content/uploads/2019/06/Ramboll.png","https://ababeel.ae/wp-content/uploads/2019/06/Parsons.png","https://ababeel.ae/wp-content/uploads/2019/06/ASGC.png","https://ababeel.ae/wp-content/uploads/2019/06/ASG.png"
   return (
     <>
     <Navbar transparent={transparent}/>
@@ -32,9 +31,16 @@ const Career = () => {
       <div className="md:w-3/4 w-full flex flex-col justify-center px-4 md:px-16 py-10">
         <h1 className="text-3xl font-semibold text-gray-800 mb-2 text-center">Upload Resume</h1>
         <p className="text-gray-500 mb-8 text-center text-2xl">Let’s find your dream job!</p>
-<div className="w-full flex justify-center">
+        <iframe
+          src="https://techie-soft.com/system/job-application-form/eyJpdiI6ImVGQTRuTitkWW4zSUs1Y0trWlBWc1E9PSIsInZhbHVlIjoiblQ3M2pRNFp6TERWejJUMjJpT1lQUT09IiwibWFjIjoiYTc4ZTlmMDVlNWE0MTk5OTYzODE3NDdhNTU3MjdmNzQ1YmIwMjliZTQxZjdmZDllNWNjOTU2YzRiMTQyNjc1ZCIsInRhZyI6IiJ9"
+          width="100%"
+          height="750"
+          style={{ overflow: 'hidden', border: 'none' }}
+          frameBorder="0"
+          title="Job Application Form"
+        ></iframe>
+{/* <div className="w-full flex justify-center">
         <form className="space-y-6 md:w-[70%] w-full ">
-          {/* Name */}
           <div className="grid grid-cols-2 gap-4">
             <input type="text" placeholder="First Name*"                                className="w-full bg-gray-100 border-gray-300 border-2 px-4 py-3  focus:ring-2 focus:ring-orange-500 outline-none"
  />
@@ -43,7 +49,6 @@ const Career = () => {
 
           </div>
 
-          {/* Email & Phone */}
           <div className="grid grid-cols-2 gap-4">
             <input type="email" placeholder="Email Address*" 
                                       className="w-full bg-gray-100 border-gray-300 border-2 px-4 py-3  focus:ring-2 focus:ring-orange-500 outline-none"
@@ -56,7 +61,6 @@ const Career = () => {
              
           </div>
 
-          {/* Location */}
           <select                                className="w-full bg-gray-100 border-gray-300 border-2 px-4 py-3  focus:ring-2 focus:ring-orange-500 outline-none"
  
 >
@@ -67,7 +71,7 @@ const Career = () => {
             <option>Pakistan</option>
           </select>
 
-          {/* Job Titles */}
+          
           <div className="grid grid-cols-2 gap-4">
             <input type="text" 
             placeholder="Current Job Title"
@@ -81,11 +85,11 @@ const Career = () => {
 />
           </div>
 
-          {/* Comments */}
+       
           <textarea placeholder="Additional Comments" rows="4" className="w-full bg-gray-100 border-gray-300 border-2 px-4 py-3  focus:ring-2 focus:ring-orange-500 outline-none"
  ></textarea>
 
-          {/* File Upload */}
+         
           <div>
             <label className="block mb-2 text-gray-600">Upload Resume*</label>
             <input type="file" 
@@ -94,7 +98,7 @@ const Career = () => {
 />
           </div>
 
-          {/* Policy Agreement */}
+         
           <div className="flex items-center space-x-2">
             <input type="checkbox" id="policy" className="h-4 w-4 text-blue-600" />
             <label htmlFor="policy" className="text-gray-600 text-sm">
@@ -102,16 +106,13 @@ const Career = () => {
             </label>
           </div>
 
-          {/* reCAPTCHA Placeholder */}
-         {/* reCAPTCHA Placeholder */}
 <div className="border border-gray-300 rounded-md bg-white shadow-sm flex items-center justify-between px-4 py-3">
-  {/* Left Side - Checkbox + Text */}
   <div className="flex items-center space-x-3">
     <input type="checkbox" className="h-5 w-5 accent-blue-600" />
     <span className="text-gray-700 text-sm font-medium">I’m not a robot</span>
   </div>
 
-  {/* Right Side - Logo + Text */}
+ 
   <div className="flex items-center space-x-1">
     <img
       src="https://www.gstatic.com/recaptcha/api2/logo_48.png"
@@ -127,7 +128,7 @@ const Career = () => {
   </div>
 </div>
 
-          {/* Submit Button */}
+         
           <div className="w-full flex justify-center">
           <button type="submit" className="w-[50%] bg-orange-500 hover:bg-orange-500 text-white py-3 rounded-md font-medium">
             Submit
@@ -135,7 +136,7 @@ const Career = () => {
           </div>
           
         </form>
-        </div>
+        </div> */}
       </div>
     </div>
     <Footer/>
