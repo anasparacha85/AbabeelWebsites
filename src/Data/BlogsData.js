@@ -127,70 +127,7 @@ const blogPosts = [
       }
     ]
   },
-  {
-    id: 3,
-    image: "https://images.unsplash.com/photo-1542744173-05336e216728?w=800&h=600&fit=crop",
-    date: "November 02, 2024",
-    category: "COST MANAGEMENT",
-    title: "Cutting HR Costs Without Compromising Quality",
-    slug:"cutting-hr-costs",
-    author: "HR CONSULTANT",
-    comments: 15,
-    excerpt: "Learn how outsourcing HR services can help mid-sized businesses reduce overheads and focus on growth.",
-    content: {
-      introduction: [
-        "HR departments often face pressure to do more with less, especially in growing mid-sized companies. Strategic cost management requires identifying which functions to optimize, automate, or outsource without impacting service quality.",
-        "By focusing on core competencies and leveraging external expertise for specialized functions, companies can achieve significant cost savings while maintaining or even improving HR service delivery."
-      ],
-      sections: [
-        {
-          heading: "Strategic Outsourcing Decisions",
-          content: "Identifying which HR functions to keep in-house versus outsource requires careful analysis of cost, expertise requirements, and strategic importance. Payroll, benefits administration, and recruitment process outsourcing often yield the highest returns."
-        },
-        {
-          heading: "Technology-Driven Efficiency",
-          content: "Implementing HR technology platforms can automate routine tasks, reduce administrative overhead, and provide valuable analytics for continuous improvement and cost optimization."
-        },
-        {
-          heading: "Process Optimization and Standardization",
-          content: "Streamlining HR processes through Lean methodologies and standardization reduces variability, minimizes errors, and allows for more efficient resource allocation across the organization."
-        }
-      ],
-      quote: {
-        text: "Cost optimization in HR isn't about cutting corners; it's about working smarter. The most successful organizations invest in strategic areas while finding efficiencies in transactional processes through technology and smart outsourcing partnerships.",
-        author: "David Thompson, HR Cost Consultant"
-      },
-      features: [
-        "HR Process Automation",
-        "Outsourcing Vendor Selection",
-        "Cost-Benefit Analysis Framework",
-        "ROI Measurement Tools",
-        "Service Level Agreements",
-        "Performance Metrics Dashboard",
-        "Compliance Risk Management",
-        "Scalable Service Models"
-      ],
-      images: [
-        "https://images.unsplash.com/photo-1542744173-05336e216728?w=600&h=400&fit=crop",
-        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop"
-      ]
-    },
-    tags: ["Cost Management", "HR Outsourcing", "Efficiency"],
-    relatedComments: [
-      {
-        id: 1,
-        author: "Lisa Zhang",
-        date: "November 04, 2024 at 9:15 am",
-        comment: "We implemented these strategies and reduced our HR operational costs by 35% while improving employee satisfaction scores. The technology integration section was particularly valuable."
-      },
-      {
-        id: 2,
-        author: "Robert Kim",
-        date: "November 05, 2024 at 4:30 pm",
-        comment: "The framework for deciding what to outsource versus keep in-house helped us make some tough but necessary decisions during our restructuring."
-      }
-    ]
-  },
+
   {
     id: 4,
     image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop",
