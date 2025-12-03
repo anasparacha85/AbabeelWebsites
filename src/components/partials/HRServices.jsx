@@ -5,12 +5,12 @@ import ImageCard from '../common/ImageCards';
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import HRService from '/public/HRService.jpg'
-import Recruitment from '/public/recruitmentsolution.jpg'
-import Staffing from '/public/staffing.jpg'
-import Placement from '/public/permanentplacing.jpg'
-import Executive from '/public/ExecutiveSearch.jpg'
-import Industry from '/public/IndustrySpecialization.jpg'
-import Payroll from '/public/payroll.jpg'
+import Recruitment from '/public/recruitmentsolution.png'
+import Staffing from '/public/temporarystaffing.png'
+import Placement from '/public/permanentplacement.png'
+import Executive from '/public/executivesearch.png'
+import Industry from '/public/industryspecialization.png'
+import Payroll from '/public/payrollmanagement.png'
 
 const HRServices = () => {
     useEffect(()=>{

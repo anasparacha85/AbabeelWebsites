@@ -1,7 +1,7 @@
 import Aos from 'aos';
 import React, { useEffect, useState } from 'react';
 import "aos/dist/aos.css"
-import Skill from '/public/skilldevelogment.jpg'
+import Skill from '/public/skilldevelogment.png'
 import Employeetraining from '/public/employeetraining.jpg'
 import consulting from '/public/consulting.jpg'
 import accurate from '/public/accuratedata.jpg'
@@ -12,7 +12,7 @@ const ServicesSection = () => {
   // useEffect(()=>{
   //   Aos.init()
   // },[])
-  const [activeTab, setActiveTab] = useState('staffing')
+  const [activeTab, setActiveTab] = useState('direct-hire')
 
   const directHireServices = [
     {
@@ -64,17 +64,7 @@ const ServicesSection = () => {
         {/* Tab Navigation */}
         <div className="flex justify-center mb-12">
   <div className="bg-white p-2 flex gap-4">
-   <button
-      onClick={() => setActiveTab("staffing")}
-      className={`px-8 py-3 cursor-pointer  font-medium transition-all duration-300 
-        ${
-          activeTab === "staffing"
-            ? "text-black border-b-4 border-orange-500"
-            : "text-gray-600 hover:text-gray-900 border-gray-400"
-        }`}
-    >
-      Employee Services
-    </button>
+   
     <button
       onClick={() => setActiveTab("direct-hire")}
       className={`px-8 py-3 cursor-pointer border-gray-400 font-medium transition-all duration-300 
@@ -85,6 +75,17 @@ const ServicesSection = () => {
         }`}
     >
       Direct Hire Services
+    </button>
+    <button
+      onClick={() => setActiveTab("staffing")}
+      className={`px-8 py-3 cursor-pointer  font-medium transition-all duration-300 
+        ${
+          activeTab === "staffing"
+            ? "text-black border-b-4 border-orange-500"
+            : "text-gray-600 hover:text-gray-900 border-gray-400"
+        }`}
+    >
+      Employee Services
     </button>
 
    
