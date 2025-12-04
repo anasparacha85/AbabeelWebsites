@@ -32,8 +32,7 @@ const Career = () => {
         <h1 className="text-3xl font-semibold text-gray-800 mb-2 text-center">Upload Resume</h1>
         <p className="text-gray-500 mb-8 text-center text-2xl">Let’s find your dream job!</p>
         <iframe
-          src="https://techie-soft.com/system/job-application-form/eyJpdiI6ImVGQTRuTitkWW4zSUs1Y0trWlBWc1E9PSIsInZhbHVlIjoiblQ3M2pRNFp6TERWejJUMjJpT1lQUT09IiwibWFjIjoiYTc4ZTlmMDVlNWE0MTk5OTYzODE3NDdhNTU3MjdmNzQ1YmIwMjliZTQxZjdmZDllNWNjOTU2YzRiMTQyNjc1ZCIsInRhZyI6IiJ9"
-          width="100%"
+         src='https://techie-soft.com/system/job-application-form/eyJpdiI6ImdNUjRGQ1dXcktNaEtpalllK282YWc9PSIsInZhbHVlIjoibVEwUmlSM2RISkVpV3hOd2hXREh1Zz09IiwibWFjIjoiNzhkYWJiYzlmNDFmNWUxZWU0MTJlOWZiNzU0MzFhY2I2MDQ2MWJmM2M5YzJmM2U5YTgyZWFmYWVjNGM4OGJjYiIsInRhZyI6IiJ9' 
           height="750"
           style={{ overflow: 'hidden', border: 'none' }}
           frameBorder="0"

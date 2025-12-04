@@ -15,9 +15,9 @@ const Contact = () => {
       <div className="absolute inset-0 bg-teal-900/90"></div>
 
       {/* Content wrapper */}
-      <div className="relative  z-10 flex items-start  flex-col md:flex-row md:justify-around max-w-7xl px-2 mx-auto md:px-6 py-16">
+      <div className="relative  z-10 flex items-start  flex-col md:flex-row  max-w-7xl px-2 mx-auto md:px-6 py-16">
         {/* Left Section */}
-        <div data-aos='fade-right' data-aos-duration='1500' className="w-full md:mt-16 md:w-2/5 text-white flex flex-col  justify-center">
+        <div data-aos='fade-right' data-aos-duration='1500' className="w-[70%] md:mt-16  text-white flex flex-col  justify-center">
           <h1 className="text-3xl md:text-5xl font-bold leading-snug">
             Get Started with Ababeel{" "}
             <span className="text-orange-600">Recruitment</span> and{" "}
@@ -29,7 +29,7 @@ const Contact = () => {
           <h2 className="text-xl font-bold text-orange-600 mb-3">
             Services We Offer:
           </h2>
-          <ul className="space-y-2 font-semibold text-lg">
+          <ul className="space-y-2 grid grid-cols-3 w-[90%] gap-x-10 font-semibold text-lg">
             <li>- Recruitment</li>
             <li>- RPO</li>
             <li>- Managed Services</li>
@@ -40,14 +40,14 @@ const Contact = () => {
         </div>
 
         {/* Right Section - Form (smaller height + centered) */}
-        <div data-aos='fade-left' data-aos-duration='2000' className="w-full md:w-2/5 bg-white shadow-lg p-8 flex  justify-center self-end mt-6 md:mt-20">
+        {/* <div data-aos='fade-left' data-aos-duration='2000' className="w-full md:w-2/5 bg-white shadow-lg p-8 flex  justify-center self-end mt-6 md:mt-20">
           <form className="w-full space-y-6">
             <h2 className="text-2xl md:text-3xl font-thin text-gray-800 leading-snug">
               Get in touch and let our consultants assist you in growing your
               business:
             </h2>
 
-            {/* Full Name + Email */}
+         
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="text"
@@ -65,7 +65,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Phone Number + Job Title */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="tel"
@@ -83,7 +82,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Company + Country */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="text"
@@ -99,7 +97,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Reason Dropdown */}
             <select
                 className="w-full bg-gray-100 px-4 py-3 rounded-md  focus:ring-2 focus:ring-orange-500 outline-none"
 
@@ -111,7 +108,6 @@ const Contact = () => {
               <option value="freelancing">Freelancing</option>
             </select>
 
-            {/* Requirements */}
             <textarea
               placeholder="What are your Requirements?*"
               rows="4"
@@ -120,7 +116,6 @@ const Contact = () => {
               required
             ></textarea>
 
-            {/* Checkbox */}
             <div className="flex items-start space-x-2">
               <input type="checkbox" className="mt-1" />
               <p className="text-sm text-gray-600">
@@ -128,14 +123,12 @@ const Contact = () => {
               </p>
             </div>
 
-            {/* Disclaimer */}
             <p className="text-xs text-gray-500 leading-relaxed">
               By clicking submit below, you consent to allow Ababeel to store and
               process the personal information submitted above to provide you
               the content requested.
             </p>
 
-            {/* Submit Button */}
             <button
               type="submit"
               className="w-full md:w-auto bg-orange-500 text-white px-8 py-3 rounded-md font-semibold hover:bg-red-600 transition"
@@ -143,12 +136,44 @@ const Contact = () => {
               SUBMIT
             </button>
           </form>
-        </div>
+        </div> */}
+        
       </div>
+       {/* Form Section - Above overlay */}
+       <div className="relative z-10 flex justify-center ">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="bg-white w-[80vw] rounded-lg shadow-2xl p-4 md:p-8 mb-8"
+          >
+            <div className="mb-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-teal-900 mb-2">
+                Contact Us
+              </h2>
+              <p className="text-gray-600">
+                Fill out the form below and we'll get back to you shortly
+              </p>
+            </div>
+
+            {/* Embedded Form */}
+            <div className="w-full overflow-hidden rounded-lg border border-gray-200">
+              <iframe
+                src="https://techie-soft.com/system/enquiry-form/eyJpdiI6IjRzTGZpRzdkQzVkblovalk3Y2ZablE9PSIsInZhbHVlIjoiSWprQm92dG1qaWo5MUxGL2NzQ0hBdz09IiwibWFjIjoiZDMwM2I1YTZiN2NmODVkNTU3ZTAwZmQ0Njc5N2RkNDZlZTE1NDZkODNlMTJiZDM5NDVlMzM0MWNiOTMyMWUwNCIsInRhZyI6IiJ9"
+                width="100%"
+                height="950"
+                style={{ overflow: "hidden", border: "none" }}
+                frameBorder="0"
+                title="Contact Form"
+              ></iframe>
+            </div>
+          </div>
+          </div>
     </div>
+    
     <Footer/>
     </>
   );
 };
 
 export default Contact;
+

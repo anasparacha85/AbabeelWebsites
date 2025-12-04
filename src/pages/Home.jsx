@@ -44,7 +44,7 @@ const Home = () => {
         <h1 className="text-3xl md:text-5xl font-bold max-w-3xl leading-tight">
          HR is All About The Right people For Your Team
          </h1>
-        <button onClick={()=>{navigate('/contact')}} className="mt-6 px-6 py-3 bg-white text-orange-400 rounded-md font-semibold hover:bg-blue-100 transition">
+        <button onClick={()=>{navigate('/contact-us')}} className="mt-6 px-6 py-3 bg-white text-orange-400 rounded-md font-semibold hover:bg-blue-100 transition">
           Contact us →
         </button>
       </div>

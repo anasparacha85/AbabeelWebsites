@@ -7,12 +7,12 @@ const Navbar = ({transparent}) => {
   const [scrolled, setScrolled] = useState(false);
 
   const links = [
-    { name: "Home", Link: "/" },
+    { name: "Home", Link: "/home" },
     { name: "Services", Link: "/services" },
     { name: "Blogs", Link: "/blogs" },
     { name: "Testimonials", Link: "/testimonials" },
     { name: "Career", Link: "/career" },
-    { name: "Contact", Link: "/contact" },
+    { name: "Contact", Link: "/contact-us" },
   ];
 
   // Scroll listener

@@ -36,7 +36,7 @@ function App() {
    <Route path="/services" element={<Services/>}/>
       <Route path="/testimonials" element={<Testimonials/>}/>
       <Route path='/blogs' element={<Blogs/>}/>
-      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/contact-us' element={<Contact/>}/>
       <Route path='/career' element={<Career/>}/>
            <Route path='/blogs/:slug' element={<BlogDetailPage/>}/>
     <Route path='*' element={<NotFound/>}/>
